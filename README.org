@@ -1,0 +1,20 @@
+#+OPTIONS: toc:nil num:nil author:nil creator:nil \n:nil |:t
+#+OPTIONS: @:t ::t ^:t -:t f:t *:t <:t
+
+* Text Align
+
+  : (require 'text-align)
+  : (global-set-key "\C-xr<" 'text-align-ljust)
+  : (global-set-key "\C-xr>" 'text-align-rjust)
+
+  type: C-x r <
+
+  : 1  |  4    1  |4
+  :  2 | 5  =>  2 |5
+  :   3|6        3|6
+
+  type: C-x r >
+
+  : 1  |  4      1|  4
+  :  2 | 5  =>   2| 5
+  :   3|6        3|6
